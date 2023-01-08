@@ -1,8 +1,8 @@
 # :desert_island: Product Recommendation Model: Deep Neural Network
-### ＊ Introduction ＊
+## ＊ Introduction ＊
 1. This model learns the `behavior patterns of different customers` in order to `predict the next product` that each customer is interested in. 
 
-### ＊ Process ＊
+## ＊ Process ＊
 1.  **[ Convert customers' browsing behaviors into vectors ]**
 	1. Collect all browsing behavior data of each customer in the past year.
 	2. Put the above data into the Word2Vec model in the Gensim package to get the vectors of browsing behaviors.  
@@ -18,13 +18,13 @@
 	3. `Product recommendation list:` Calculate the cosine similarity between the model's output and the vectors of all products, and sort them in descending order of similarity. The higher the similarity, the more interested the customer is in the product.
 	4. If the product that is expected to be advertised is in the top K of the product recommendation list of some customers, those customers can be included in the advertising list.
 
------
+&nbsp;
 
 # :cherry_blossom: 商品推薦模型：深度神經網路
-### ＊ 簡介 ＊
+## ＊ 簡介 ＊
 1. 此模型學習不同`顧客之行為模式`，以預測每個顧客`下一個感興趣的商品`。
 
-### ＊ 流程 ＊
+## ＊ 流程 ＊
 1. **[ 顧客瀏覽行為轉換成向量 ]**
 	1. 蒐集過去一年每個顧客所有的瀏覽行為資料。
 	2. 再將資料輸入Gensim套件中Word2Vec模型，即可將瀏覽或點擊某項商品的行為轉換成向量，以便建置後續模型。
