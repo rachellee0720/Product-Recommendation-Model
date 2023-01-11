@@ -13,7 +13,7 @@
 	3. `Model learning/prediction target:` the latest product that customers browsed or want to browse.
 
 3. **[ Build product recommendation model ]**
-	1. `Model:` Use keras to build a deep neural networ (DNN).
+	1. `Model:` Use pytorch to build a deep neural network (DNN).
 	2. `Model's output:` the prediction vector for the product that the customer will browse next.
 	3. `Product recommendation list:` Calculate the cosine similarity between the model's output and the vectors of all products, and sort them in descending order of similarity. The higher the similarity, the more interested the customer is in the product.
 	4. If the product that is expected to be advertised is in the top K of the product recommendation list of some customers, those customers can be included in the advertising list.
